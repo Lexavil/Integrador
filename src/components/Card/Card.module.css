@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 270px;
+    border: solid 2px rgba(197, 197, 214, 0);
+    border-radius: 20px;
+    background-color: rgba(251, 251, 251, 0.112);
+    box-shadow: black;
+    transition: all(0.5);
+}
+.container:hover {
+    transform: scale(1.1);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.button {
+    border-radius: 20px;
+    margin: 10px 10px 0 0;
+    border:none;
+    color: rgb(105, 201, 201);
+    background-color: rgba(251, 251, 251, 0.141);
+
+}
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgb(239, 52, 65);
+
+
+}
+img {
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+
+}
+.imageContainer{
+    margin-top: 10px;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+
+}
+.name {
+background-color: rgba(0, 0, 0, 0.458);
+position: absolute;
+margin-bottom: 0px;
+color:rgb(249, 254, 255);
+border-radius: 0px 0px 10px 10px;
+
+}
+.propsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(1, 1, 1, 0.437);
+    margin: 0px;
+    color:rgba(46, 207, 224, 0.721);
+    border-radius: 0 0 20px 20px;
+    
+}
+.propsContainer h2 {
+    margin: 0px;
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;/*sirve para orientacion fila*/
+
+
+}
+input {
+    background-color: rgba(250, 252, 252, 0.534);
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-family: cursive;
+
+}
+button {
+    border-radius: 0 20px 20px 0;
+    color: aqua;
+    
+    background-color: rgba(0, 0, 0, 0.431);
+
+}
+button:hover{
+    color: rgb(254, 254, 254);
+    background-color: rgb(69, 221, 244);
+    cursor: pointer;
+}
